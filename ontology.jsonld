@@ -1,0 +1,807 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PremiumHotel"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid22"
+    }, {
+      "@id" : "_:genid20"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid24"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/p"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "50"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#ExpensiveRestaurant"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid33"
+    }, {
+      "@id" : "_:genid31"
+    }, {
+      "@id" : "_:genid27"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid35"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/typ"
+    }, {
+      "@value" : "bus"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#equal"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid11"
+    }, {
+      "@id" : "_:genid9"
+    }, {
+      "@id" : "_:genid5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid13"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/typ"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PublicTransport"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "4.5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating"
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A site of tourist interest within a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@value" : "http://dbpedia.org/resource/Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#availableIn" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averageCost" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2.5"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#company" : [ {
+    "@value" : "TMB"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type" : [ {
+    "@value" : "Metro"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BudgetHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A low-cost hotel providing basic services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Budget Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Bus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A large motor vehicle carrying passengers by road."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#CapitalCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A city that serves as the governmental center of a country."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Capital City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A geographical area where tourist activities take place."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#CoastalCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A city located near or along a coastline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Coastal City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Concert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A musical performance typically held in a public venue."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Concert"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A public or social gathering happening in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Exhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A public display of works of art or other items of interest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Exhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#ExpensiveRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A restaurant classified as expensive due to its high average price."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Expensive Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#FastFoodRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A restaurant offering quick and affordable meals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fast Food Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Festival",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A day or period of celebration, often involving cultural activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Festival"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "80"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#cuisineType" : [ {
+    "@value" : "Mediterranean"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#locatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name" : [ {
+    "@value" : "GourmetExperience"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A restaurant specializing in high-quality cuisine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gourmet Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A place offering accommodation to tourists."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#hotelType" : [ {
+    "@value" : "Lujo"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name" : [ {
+    "@value" : "HotelArts"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#nightPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "300"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#situatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@value" : "http://dbpedia.org/resource/Hotel_Arts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#LuxuryHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A high-end hotel offering premium services and facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Luxury Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Monument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A structure built to commemorate a person or event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Museum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An institution that preserves and exhibits objects of historical or artistic value."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#date" : [ {
+    "@value" : "2025-07-15"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name" : [ {
+    "@value" : "Music Festival Barcelona"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#organizedIn" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona"
+  } ],
+  "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type" : [ {
+    "@value" : "Music"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@value" : "http://dbpedia.org/resource/Sónar_Festival"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A public green area for recreation in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Plane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A vehicle designed for air travel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Plane"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PremiumHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A hotel classified as premium due to its high rating."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PremiumHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PublicTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A means of transport available for public use, typically including buses, trains, and similar vehicles."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Public Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A place where tourists can eat meals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Train",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A railway vehicle that transports people or goods."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Train"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A system or means of traveling from one place to another."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#availableIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averageCost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#cuisineType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#hotelType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#locatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#nightPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#organizedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#situatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/p",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/typ",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#equal",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+} ]

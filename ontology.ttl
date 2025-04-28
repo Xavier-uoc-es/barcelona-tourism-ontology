@@ -1,0 +1,494 @@
+@prefix : <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#> .
+
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#availableIn
+:availableIn rdf:type owl:ObjectProperty ;
+             rdfs:domain :Transport ;
+             rdfs:range :City .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#locatedIn
+:locatedIn rdf:type owl:ObjectProperty ;
+           rdfs:domain :Attraction ,
+                       :Restaurant ;
+           rdfs:range :City .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#organizedIn
+:organizedIn rdf:type owl:ObjectProperty ;
+             rdfs:domain :Event ;
+             rdfs:range :City .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#situatedIn
+:situatedIn rdf:type owl:ObjectProperty ;
+            rdfs:domain :Hotel ;
+            rdfs:range :City .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averageCost
+:averageCost rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Transport ;
+             rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice
+:averagePrice rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Restaurant ;
+              rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#company
+:company rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Transport ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#cuisineType
+:cuisineType rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Restaurant ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Event ;
+      rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#hotelType
+:hotelType rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Hotel ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#location
+:location rdf:type owl:DatatypeProperty ;
+          rdfs:domain :City ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Attraction ,
+                  :City ,
+                  :Event ,
+                  :Hotel ,
+                  :Restaurant ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#nightPrice
+:nightPrice rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Hotel ;
+            rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating
+:rating rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Attraction ,
+                    :Hotel ,
+                    :Restaurant ;
+        rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars
+:stars rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Hotel ;
+       rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Attraction ,
+                  :Event ,
+                  :Transport ;
+      rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction
+:Attraction rdf:type owl:Class ;
+            rdfs:comment "A site of tourist interest within a city." ;
+            rdfs:label "Attraction" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BudgetHotel
+:BudgetHotel rdf:type owl:Class ;
+             rdfs:subClassOf :Hotel ;
+             rdfs:comment "A low-cost hotel providing basic services." ;
+             rdfs:label "Budget Hotel" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Bus
+:Bus rdf:type owl:Class ;
+     rdfs:subClassOf :Transport ;
+     rdfs:comment "A large motor vehicle carrying passengers by road." ;
+     rdfs:label "Bus" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#CapitalCity
+:CapitalCity rdf:type owl:Class ;
+             rdfs:subClassOf :City ;
+             rdfs:comment "A city that serves as the governmental center of a country." ;
+             rdfs:label "Capital City" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City
+:City rdf:type owl:Class ;
+      rdfs:comment "A geographical area where tourist activities take place." ;
+      rdfs:label "City" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#CoastalCity
+:CoastalCity rdf:type owl:Class ;
+             rdfs:subClassOf :City ;
+             rdfs:comment "A city located near or along a coastline." ;
+             rdfs:label "Coastal City" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Concert
+:Concert rdf:type owl:Class ;
+         rdfs:subClassOf :Event ;
+         rdfs:comment "A musical performance typically held in a public venue." ;
+         rdfs:label "Concert" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event
+:Event rdf:type owl:Class ;
+       rdfs:comment "A public or social gathering happening in a city." ;
+       rdfs:label "Event" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Exhibition
+:Exhibition rdf:type owl:Class ;
+            rdfs:subClassOf :Event ;
+            rdfs:comment "A public display of works of art or other items of interest." ;
+            rdfs:label "Exhibition" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#ExpensiveRestaurant
+:ExpensiveRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf :Restaurant ;
+                     rdfs:comment "A restaurant classified as expensive due to its high average price." ;
+                     rdfs:label "Expensive Restaurant" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#FastFoodRestaurant
+:FastFoodRestaurant rdf:type owl:Class ;
+                    rdfs:subClassOf :Restaurant ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :averagePrice ;
+                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onDataRange xsd:float
+                                    ] ;
+                    rdfs:comment "A restaurant offering quick and affordable meals." ;
+                    rdfs:label "Fast Food Restaurant" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Festival
+:Festival rdf:type owl:Class ;
+          rdfs:subClassOf :Event ;
+          rdfs:comment "A day or period of celebration, often involving cultural activities." ;
+          rdfs:label "Festival" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetRestaurant
+:GourmetRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf :Restaurant ;
+                   rdfs:comment "A restaurant specializing in high-quality cuisine." ;
+                   rdfs:label "Gourmet Restaurant" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel
+:Hotel rdf:type owl:Class ;
+       rdfs:comment "A place offering accommodation to tourists." ;
+       rdfs:label "Hotel" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#LuxuryHotel
+:LuxuryHotel rdf:type owl:Class ;
+             rdfs:subClassOf :Hotel ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :rating ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] ;
+             rdfs:comment "A high-end hotel offering premium services and facilities." ;
+             rdfs:label "Luxury Hotel" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Monument
+:Monument rdf:type owl:Class ;
+          rdfs:subClassOf :Attraction ;
+          rdfs:comment "A structure built to commemorate a person or event." ;
+          rdfs:label "Monument" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Museum
+:Museum rdf:type owl:Class ;
+        rdfs:subClassOf :Attraction ;
+        rdfs:comment "An institution that preserves and exhibits objects of historical or artistic value." ;
+        rdfs:label "Museum" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Park
+:Park rdf:type owl:Class ;
+      rdfs:subClassOf :Attraction ;
+      rdfs:comment "A public green area for recreation in a city." ;
+      rdfs:label "Park" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Plane
+:Plane rdf:type owl:Class ;
+       rdfs:subClassOf :Transport ;
+       rdfs:comment "A vehicle designed for air travel." ;
+       rdfs:label "Plane" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PremiumHotel
+:PremiumHotel rdf:type owl:Class ;
+              rdfs:subClassOf :Hotel ;
+              rdfs:comment "A hotel classified as premium due to its high rating." ;
+              rdfs:label "PremiumHotel" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PublicTransport
+:PublicTransport rdf:type owl:Class ;
+                 rdfs:subClassOf :Transport ;
+                 rdfs:comment "A means of transport available for public use, typically including buses, trains, and similar vehicles." ;
+                 rdfs:label "Public Transport" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:comment "A place where tourists can eat meals." ;
+            rdfs:label "Restaurant" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Train
+:Train rdf:type owl:Class ;
+       rdfs:subClassOf :Transport ;
+       rdfs:comment "A railway vehicle that transports people or goods." ;
+       rdfs:label "Train" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport
+:Transport rdf:type owl:Class ;
+           rdfs:comment "A system or means of traveling from one place to another." ;
+           rdfs:label "Transport" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona
+:Barcelona rdf:type owl:NamedIndividual ,
+                    :City ;
+           owl:sameAs "http://dbpedia.org/resource/Barcelona" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro
+:BarcelonaMetro rdf:type owl:NamedIndividual ,
+                         :Transport ;
+                :availableIn :Barcelona ;
+                :averageCost 2.5 ;
+                :company "TMB" ;
+                :type "Metro" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience
+:GourmetExperience rdf:type owl:NamedIndividual ,
+                            :Restaurant ;
+                   :locatedIn :Barcelona ;
+                   :averagePrice 80 ;
+                   :cuisineType "Mediterranean" ;
+                   :name "GourmetExperience" ;
+                   :rating 4.7 .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts
+:HotelArts rdf:type owl:NamedIndividual ,
+                    :Hotel ;
+           :situatedIn :Barcelona ;
+           :hotelType "Lujo" ;
+           :name "HotelArts" ;
+           :nightPrice 300 ;
+           :rating 4.8 ;
+           :stars 5 ;
+           owl:sameAs "http://dbpedia.org/resource/Hotel_Arts" .
+
+
+###  http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona
+:MusicFestivalBarcelona rdf:type owl:NamedIndividual ,
+                                 :Event ;
+                        :organizedIn :Barcelona ;
+                        :date "2025-07-15" ;
+                        :name "Music Festival Barcelona" ;
+                        :type "Music" ;
+                        owl:sameAs "http://dbpedia.org/resource/Sónar_Festival" .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/p> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/typ> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "" ;
+   rdfs:label "S2" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Restaurant ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :averagePrice ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/p>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/p> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 50 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :ExpensiveRestaurant ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "" ;
+   rdfs:label "S3" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Transport ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :type ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/typ>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/typ> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first "bus" ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :PublicTransport ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/t>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "" ;
+   rdfs:label "S1" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Hotel ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :rating ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/r> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 4.5 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :PremiumHotel ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5/h>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

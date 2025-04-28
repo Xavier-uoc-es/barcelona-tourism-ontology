@@ -1,0 +1,962 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Bus",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus",
+      "undefined" : "Bus"
+    },
+    "comment" : {
+      "undefined" : "A large motor vehicle carrying passengers by road."
+    },
+    "id" : "17",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#FastFoodRestaurant",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FastFoodRestaurant",
+      "undefined" : "Fast Food Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant offering quick and affordable meals."
+    },
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PublicTransport",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicTransport",
+      "undefined" : "Public Transport"
+    },
+    "comment" : {
+      "undefined" : "A means of transport available for public use, typically including buses, trains, and similar vehicles."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience",
+      "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "GourmetExperience"
+      }
+    } ],
+    "subClasses" : [ "35", "39", "40" ],
+    "comment" : {
+      "undefined" : "A place where tourists can eat meals."
+    },
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction",
+      "undefined" : "Attraction"
+    },
+    "subClasses" : [ "41", "30", "27" ],
+    "comment" : {
+      "undefined" : "A site of tourist interest within a city."
+    },
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Exhibition",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exhibition",
+      "undefined" : "Exhibition"
+    },
+    "comment" : {
+      "undefined" : "A public display of works of art or other items of interest."
+    },
+    "id" : "19",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Concert",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concert",
+      "undefined" : "Concert"
+    },
+    "comment" : {
+      "undefined" : "A musical performance typically held in a public venue."
+    },
+    "id" : "32",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "undefined" : "Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona",
+      "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Sónar_Festival",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MusicFestivalBarcelona"
+      }
+    } ],
+    "subClasses" : [ "34", "32", "19" ],
+    "comment" : {
+      "undefined" : "A public or social gathering happening in a city."
+    },
+    "id" : "20"
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "4", "36", "28", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "47"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "28", "36" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "48"
+  }, {
+    "instances" : 0,
+    "union" : [ "36", "28" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "28", "2" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#PremiumHotel",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PremiumHotel",
+      "undefined" : "PremiumHotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel classified as premium due to its high rating."
+    },
+    "id" : "24",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Monument",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument",
+      "undefined" : "Monument"
+    },
+    "comment" : {
+      "undefined" : "A structure built to commemorate a person or event."
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#CoastalCity",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CoastalCity",
+      "undefined" : "Coastal City"
+    },
+    "comment" : {
+      "undefined" : "A city located near or along a coastline."
+    },
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BudgetHotel",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BudgetHotel",
+      "undefined" : "Budget Hotel"
+    },
+    "comment" : {
+      "undefined" : "A low-cost hotel providing basic services."
+    },
+    "id" : "22",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Plane",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plane",
+      "undefined" : "Plane"
+    },
+    "comment" : {
+      "undefined" : "A vehicle designed for air travel."
+    },
+    "id" : "64",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#LuxuryHotel",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel",
+      "undefined" : "Luxury Hotel"
+    },
+    "comment" : {
+      "undefined" : "A high-end hotel offering premium services and facilities."
+    },
+    "id" : "14",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Museum",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum",
+      "undefined" : "Museum"
+    },
+    "comment" : {
+      "undefined" : "An institution that preserves and exhibits objects of historical or artistic value."
+    },
+    "id" : "41",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "undefined" : "Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts",
+      "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Hotel_Arts",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HotelArts"
+      }
+    } ],
+    "subClasses" : [ "14", "24", "22" ],
+    "comment" : {
+      "undefined" : "A place offering accommodation to tourists."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Park",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park",
+      "undefined" : "Park"
+    },
+    "comment" : {
+      "undefined" : "A public green area for recreation in a city."
+    },
+    "id" : "30",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#ExpensiveRestaurant",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExpensiveRestaurant",
+      "undefined" : "Expensive Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant classified as expensive due to its high average price."
+    },
+    "id" : "39",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetRestaurant",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GourmetRestaurant",
+      "undefined" : "Gourmet Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant specializing in high-quality cuisine."
+    },
+    "id" : "40",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Festival",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Festival",
+      "undefined" : "Festival"
+    },
+    "comment" : {
+      "undefined" : "A day or period of celebration, often involving cultural activities."
+    },
+    "id" : "34",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#City",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona",
+      "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Barcelona",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Barcelona"
+      }
+    } ],
+    "subClasses" : [ "10", "7" ],
+    "comment" : {
+      "undefined" : "A geographical area where tourist activities take place."
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#CapitalCity",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CapitalCity",
+      "undefined" : "Capital City"
+    },
+    "comment" : {
+      "undefined" : "A city that serves as the governmental center of a country."
+    },
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "undefined" : "Transport"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro",
+      "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "BarcelonaMetro"
+      }
+    } ],
+    "subClasses" : [ "1", "17", "64", "69" ],
+    "comment" : {
+      "undefined" : "A system or means of traveling from one place to another."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Train",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Train",
+      "undefined" : "Train"
+    },
+    "comment" : {
+      "undefined" : "A railway vehicle that transports people or goods."
+    },
+    "id" : "69",
+    "superClasses" : [ "2" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "stars"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#company",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "company"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "11"
+  }, {
+    "range" : "4",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#nightPrice",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "nightPrice"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "4",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "4",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#availableIn",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "availableIn"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "28",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "20",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "20",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#location",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "location"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "range" : "36",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averageCost",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "averageCost"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "range" : "36",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "28",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#situatedIn",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "situatedIn"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "domain" : "51",
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "rating"
+    },
+    "cardinality" : "1",
+    "domain" : "48",
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#cuisineType",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "cuisineType"
+    },
+    "domain" : "36",
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#date",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "date"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#organizedIn",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "organizedIn"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "name"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#hotelType",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hotelType"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "averagePrice"
+    },
+    "cardinality" : "1",
+    "domain" : "36",
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "range" : "2",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#locatedIn",
+    "baseIri" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "locatedIn"
+    },
+    "domain" : "50",
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "range" : "2",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "2",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  } ]
+}
