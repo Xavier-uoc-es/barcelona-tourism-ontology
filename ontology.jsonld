@@ -237,11 +237,26 @@
     "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+  "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/barcelona-tourism-ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Ontology describing tourism entities and activities in Barcelona."
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Barcelona Tourism Ontology"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Attraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -267,7 +282,7 @@
     "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averageCost" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "2.5"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#company" : [ {
@@ -411,8 +426,8 @@
   "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "80"
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "80.0"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#cuisineType" : [ {
     "@value" : "Mediterranean"
@@ -424,7 +439,7 @@
     "@value" : "GourmetExperience"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "4.7"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -461,19 +476,19 @@
     "@value" : "HotelArts"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#nightPrice" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "300"
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "300.0"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "4.8"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#situatedIn" : [ {
     "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "5"
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "5.0"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
@@ -523,7 +538,8 @@
   "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#date" : [ {
-    "@value" : "2025-07-15"
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-07-15T00:00:00"
   } ],
   "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name" : [ {
     "@value" : "Music Festival Barcelona"
@@ -765,7 +781,7 @@
     "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type",

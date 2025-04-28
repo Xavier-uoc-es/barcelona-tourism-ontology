@@ -1,4 +1,7 @@
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/barcelona-tourism-ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/barcelona-tourism-ontology> <http://purl.org/dc/elements/1.1/description> "Ontology describing tourism entities and activities in Barcelona." .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/barcelona-tourism-ontology> <http://purl.org/dc/elements/1.1/license> "https://creativecommons.org/licenses/by/4.0/" .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/barcelona-tourism-ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Barcelona Tourism Ontology" .
 # 
 # 
 # #################################################################
@@ -7,6 +10,12 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -112,7 +121,7 @@
 # http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Hotel> .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
 # http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -296,7 +305,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Transport> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#availableIn> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona> .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averageCost> "2.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averageCost> "2.5"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#company> "TMB" .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#BarcelonaMetro> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type> "Metro" .
 # 
@@ -304,10 +313,10 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Restaurant> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#locatedIn> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona> .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice> "80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#averagePrice> "80.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#cuisineType> "Mediterranean" .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name> "GourmetExperience" .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating> "4.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#GourmetExperience> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating> "4.7"^^<http://www.w3.org/2001/XMLSchema#float> .
 # 
 # http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -315,16 +324,16 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#situatedIn> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#hotelType> "Lujo" .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name> "HotelArts" .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#nightPrice> "300"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating> "4.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#nightPrice> "300.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#rating> "4.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#stars> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#HotelArts> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Hotel_Arts" .
 # 
 # http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Event> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#organizedIn> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#Barcelona> .
-<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#date> "2025-07-15" .
+<http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#date> "2025-07-15T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#name> "Music Festival Barcelona" .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#type> "Music" .
 <http://www.semanticweb.org/xavier/ontologies/2025/3/untitled-ontology-5#MusicFestivalBarcelona> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Sónar_Festival" .
